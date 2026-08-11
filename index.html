@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgroHoras</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>AgroHoras</h1>
+    <p>Visualizador de datos desde Google Sheets</p>
+  </header>
+
+  <main class="container">
+    <div id="loading">Cargando datos...</div>
+    <div id="error" class="hidden">Hubo un error al cargar los datos.</div>
+    
+    <table id="data-table" class="hidden">
+      <thead id="table-head"></thead>
+      <tbody id="table-body"></tbody>
+    </table>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
