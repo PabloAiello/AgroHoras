@@ -1,3 +1,3 @@
 git add .
-git commit -m "Actualizacion de codigo app.js y style.css"
+git commit -m "Ajuste de diseño para encajar todo en una sola pantalla"
 git push origin main
